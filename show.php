@@ -1,5 +1,5 @@
 <?php
-require('db.php');
+require 'db.php' ;
 $sql = "select id,email,fname,password from accounts  ";
 $results = runQuery($sql);
 if(count($results) > 0)
