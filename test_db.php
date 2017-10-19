@@ -1,5 +1,5 @@
 <?php
-require("db.php");
+require "db.php" ;
 
 $mode = $_GET["case_label"];
 switch ($mode) {
