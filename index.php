@@ -17,10 +17,11 @@
         <label>Task:</label>
         <!-- <input type="text" name="case_label" id="task"/> -->
         <select>
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="opel">Opel</option>
-          <option value="audi">Audi</option>
+          <option value="insert">insert</option>
+          <option value="update">update</option>
+          <option value="delete">delete</option>
+          <option value="down dir">down dir</option>
+          <option value="nonexist label">nonexist label</option>
         </select>
       </div>
       <div class="form-group">
