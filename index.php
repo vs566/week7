@@ -16,7 +16,7 @@
       <div class="form-group">
         <label>Task:</label>
         <!-- <input type="text" name="case_label" id="task"/> -->
-        <select>
+        <select name="case_label">
           <option value="insert">insert</option>
           <option value="update">update</option>
           <option value="delete">delete</option>
