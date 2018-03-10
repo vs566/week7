@@ -11,14 +11,20 @@ switch ($mode) {
 		header("Location: index.php");
 		break;
 	case 'update':
-		$fname = 'Bongo';
-		$sql ="update accounts set password = '4321' where fname = '$fname' ";
+		$fname = 'Mike';
+		$sql ="update accounts set password = '123' where fname = '$fname' ";
 		$results = runQuery($sql);
 		header("Location: index.php");
 		break;
 	case 'delete':
 		$fname = 'Bongo';
 		$sql ="delete from accounts where fname = '$fname' ";
+		$results = runQuery($sql);
+		header("Location: index.php");
+		break;
+	case 'select':
+		$id = 'id';
+		$sql ="select from accounts where id<=6' ";
 		$results = runQuery($sql);
 		header("Location: index.php");
 		break;
